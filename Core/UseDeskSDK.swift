@@ -5,8 +5,13 @@ import Foundation
 import SocketIO
 import UserNotifications
 import Reachability
+import UIKit
 
 public class UseDeskSDK: NSObject, UDUISetupable {
+
+	func setupUI() {
+	}
+
     @objc public var newMessageBlock: UDSNewMessageBlock?
     @objc public var connectBlock: UDSConnectBlock?
     @objc public var feedbackMessageBlock: UDSFeedbackMessageBlock?

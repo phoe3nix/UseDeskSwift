@@ -4,6 +4,7 @@
 //
 
 import Foundation
+import UIKit
 
 enum UDTypeSourceFile: String {
     case UIImage = "UIImage"

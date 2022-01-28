@@ -5,6 +5,7 @@
 //
 import SocketIO
 import Alamofire
+import Foundation
 
 public class UDNetworkManager {
     
